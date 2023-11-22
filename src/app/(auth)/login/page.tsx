@@ -85,7 +85,7 @@ const LoginPage = () => {
                 {!isLoading ? 'Login' : <Loader />}
             </Button>
             <span className='sel-center'>
-                Don't have an account?
+                Don&apos;t have an account?
                 <Link href='/signup' className='text-primary'> Sign up </Link>
             </span>
         </form>
